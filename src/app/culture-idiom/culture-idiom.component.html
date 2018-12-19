@@ -1,0 +1,8 @@
+<div class="thumbnail">
+  <div  *ngFor="let idiomDetails of idiom.data">
+    <p>{{idiomDetails.idiomname}}({{idiomDetails.idiom_spell}})</p>
+    <p>【解释】{{idiomDetails.idiom_content}}</p>
+    <p>【来历】{{idiomDetails.idiom_derivation}}</p>
+    <p>【举例】{{idiomDetails.idiom_samples}}</p>
+  </div>
+</div>
